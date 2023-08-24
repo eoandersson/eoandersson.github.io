@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/eoandersson.github.io/static/css/main.073c9b0a.css",
+    "main.js": "/eoandersson.github.io/static/js/main.5a8d8e96.js",
+    "static/js/787.1ed0c42c.chunk.js": "/eoandersson.github.io/static/js/787.1ed0c42c.chunk.js",
+    "static/media/logo.svg": "/eoandersson.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/eoandersson.github.io/index.html",
+    "main.073c9b0a.css.map": "/eoandersson.github.io/static/css/main.073c9b0a.css.map",
+    "main.5a8d8e96.js.map": "/eoandersson.github.io/static/js/main.5a8d8e96.js.map",
+    "787.1ed0c42c.chunk.js.map": "/eoandersson.github.io/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.5a8d8e96.js"
+  ]
+}
