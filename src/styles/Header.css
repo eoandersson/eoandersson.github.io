@@ -1,0 +1,108 @@
+.navigation {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    padding: 0.5rem 0rem;
+    background-color: var(--e1-bg-color);
+    color: var(--text-high-color);
+    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+  }
+  
+  .brand-name {
+    text-decoration: none;
+    color: var(--text-high-color);
+    font-size: 1.3rem;
+    margin-left: 1rem;
+  }
+  
+  .navigation-menu {
+    margin-left: auto;
+  }
+  
+  .navigation-menu ul {
+    display: flex;
+    padding: 0;
+  }
+  
+  .navigation-menu li {
+    list-style-type: none;
+    margin: 0 1rem;
+  }
+  
+  .navigation-menu li a {
+    text-decoration: none;
+    color: var(--text-medium-color);
+    display: block;
+    width: 100%;
+  }
+
+  .navigation-menu a:hover {
+    color: var(--text-high-color);
+  }
+
+  .navigation-menu a.active {
+    color: blueviolet;
+    font-weight: bold;
+  }
+  
+  .hamburger {
+    border: 0;
+    height: 40px;
+    width: 40px;
+    padding: 0.5rem;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    position: absolute;
+    top: 50%;
+    right: 25px;
+    transform: translateY(-50%);
+    display: none;
+  }
+  
+  .hamburger:hover {
+    background-color: #2642af;
+  }
+  
+  @media screen and (max-width: 550px) {
+    .hamburger {
+      display: block;
+    }
+  
+    .navigation-menu ul {
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      height: calc(100vh - 60px);
+      background-color: var(--main-bg-color);
+      border-top: 1px solid black;
+      display: none;
+      z-index: 1;
+    }
+  
+    .navigation-menu li {
+      text-align: center;
+      margin: 0;
+    }
+  
+    .navigation-menu li a {
+      color: var(--text-medium-color);
+      width: 100%;
+      padding: 1.5rem 0;
+    }
+  
+    .navigation-menu li:hover {
+      background-color: var(--text-medium-color);
+    }
+  
+    .navigation-menu.expanded ul {
+      display: block;
+      margin-top: 0;
+    }
+  }
+  

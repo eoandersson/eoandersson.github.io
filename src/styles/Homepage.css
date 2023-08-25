@@ -1,0 +1,10 @@
+#home-content {
+    background-color: var(--e1-bg-color);
+    max-width: var(--site-width);
+    margin: 20px auto 20px auto;
+}
+.language-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
