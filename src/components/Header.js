@@ -7,9 +7,7 @@ export default function Navbar() {
 
   return (
     <nav className="navigation">
-      <a href="/" className="brand-name">
-        ERIK ANDERSSON
-      </a>
+      <NavLink className='brand-name' to='/'>ERIK ANDERSSON</NavLink>
       <button
         className="hamburger"
         onClick={() => {

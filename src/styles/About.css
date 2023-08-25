@@ -1,0 +1,17 @@
+.about-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.about-content-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.about-content-wrapper p {
+    color: var(--text-medium-color);
+}
+@media screen and (max-width: 767px) {
+    .about-header {
+        align-self: center;
+    }
+}

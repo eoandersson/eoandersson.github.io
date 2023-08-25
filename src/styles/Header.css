@@ -33,7 +33,7 @@
   
   .navigation-menu li a {
     text-decoration: none;
-    color: var(--text-medium-color);
+    color: var(--text-disabled-color);
     display: block;
     width: 100%;
   }
@@ -43,7 +43,7 @@
   }
 
   .navigation-menu a.active {
-    color: blueviolet;
+    color: var(--text-high-color);
     font-weight: bold;
   }
   
